@@ -164,7 +164,7 @@ class _ScaffoldRouteState extends State<ScaffoldRoute>
         ...   //省略无关代码
         bottom: TabBar(   //生成Tab菜单
             controller: _tabController,
-            tabs: tabs.map((e) => Tab(text: e)).toList()),
+            tabs: tabs.map((e) => Tab(text: e)).toList(),
         ),
       ... //省略无关代码
       
